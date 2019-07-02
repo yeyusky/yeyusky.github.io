@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yeyusky.github.io</id>
     <title>夜雨、听风</title>
-    <updated>2019-07-02T01:28:56.846Z</updated>
+    <updated>2019-07-02T01:32:48.794Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yeyusky.github.io"/>
     <link rel="self" href="https://yeyusky.github.io/atom.xml"/>
@@ -12,13 +12,11 @@
     <rights>All rights reserved 2019, 夜雨、听风</rights>
     <entry>
         <title type="html"><![CDATA[前端必走之路----CSS]]></title>
-        <id>https://yeyusky.github.io/post/ren-shi-css-zhong-de-ge-ge-zhu-hu</id>
-        <link href="https://yeyusky.github.io/post/ren-shi-css-zhong-de-ge-ge-zhu-hu">
+        <id>https://yeyusky.github.io/post/css-por</id>
+        <link href="https://yeyusky.github.io/post/css-por">
         </link>
         <updated>2019-07-01T03:49:27.000Z</updated>
-        <content type="html"><![CDATA[<div class="post-feature-image" style="background-image: url(https://yeyusky.github.io/post-images/totalcss.jpg')">
-              </div>
-<p style="text-indent:2em;">前端的领域里，任何东西都离不开HTML 与 CSS。HTML与CSS基本上控制了你看到的所有东西，HTML用来定义内容而CSS负责样式与布局。</p>
+        <content type="html"><![CDATA[<p style="text-indent:2em;">前端的领域里，任何东西都离不开HTML 与 CSS。HTML与CSS基本上控制了你看到的所有东西，HTML用来定义内容而CSS负责样式与布局。</p>
 <p style="text-indent:2em;">闲话少说，让我们再来熟悉一下CSS中的各个属性</p>
         <img src="https://yeyusky.github.io/post-images/totalcss.jpg" alt="" />]]></content>
     </entry>
