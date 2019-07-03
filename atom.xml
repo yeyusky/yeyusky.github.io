@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yeyusky.github.io</id>
     <title>夜雨、听风</title>
-    <updated>2019-07-03T05:14:50.723Z</updated>
+    <updated>2019-07-03T05:18:48.952Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yeyusky.github.io"/>
     <link rel="self" href="https://yeyusky.github.io/atom.xml"/>
@@ -16,8 +16,7 @@
         <link href="https://yeyusky.github.io/post/vue-component">
         </link>
         <updated>2019-07-02T04:41:33.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>如何引入vue？</strong>
-<br></p>
+        <content type="html"><![CDATA[<h1>如何引入vue？</h1>
 <p style="text-indent:2em;">vue.js跟jQuery相似，所以我们要先引人vue.js，引入可以通过官网下载JS文件（这里就不做详细介绍了），如下图：</p>
 <img src="https://yeyusky.github.io/post-images/yr-vue.png" alt="" />
 <p style="text-indent:2em;">亦或是通过cdn的方式引入，如下图：</p>
@@ -25,8 +24,7 @@
 <p style="text-indent:2em;">再或是通过npm安装引入，如下图：</p>
 <img src="https://yeyusky.github.io/post-images/npmyr-vue.png" alt="" />
 <p style="text-indent:2em;">上面的都完成了，下面我们就可以来一起学习一下vue的组件，vue组件有全局组件和局部组件两种</p>
-	**vue之全局组件**
-<br>
+<h1>vue之全局组件</h1>
 <p style="text-indent:2em;">全局组件代码如下图：</p>
 <img src="https://yeyusky.github.io/post-images/qcomponent.png" alt="" />
 <p style="text-indent:2em;">如果只是按照上图所示是不成功的，必须还要new一个vue实例，如下图：</p>
