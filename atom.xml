@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yeyusky.github.io</id>
     <title>夜雨、听风</title>
-    <updated>2019-07-04T09:02:45.194Z</updated>
+    <updated>2019-07-04T09:11:45.446Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yeyusky.github.io"/>
     <link rel="self" href="https://yeyusky.github.io/atom.xml"/>
@@ -43,6 +43,7 @@
 <img src="https://yeyusky.github.io/post-images/jbvue4.png" alt="" />	
 <p style="text-indent:2em;">最后页面中的显示：</p>
 <img src="https://yeyusky.github.io/post-images/jbvue5.png" alt="" />	
+<p style="text-indent:2em;font-size:18px;color:red; ">****前端小白初次写作，如有不足，还望指正</p>
 ]]></content>
     </entry>
     <entry>
