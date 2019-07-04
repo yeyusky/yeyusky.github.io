@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yeyusky.github.io</id>
     <title>夜雨、听风</title>
-    <updated>2019-07-03T05:37:52.773Z</updated>
+    <updated>2019-07-04T09:02:21.920Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yeyusky.github.io"/>
     <link rel="self" href="https://yeyusky.github.io/atom.xml"/>
@@ -33,6 +33,16 @@
 <img src="https://yeyusky.github.io/post-images/qcom2.png" alt="" />	
 <p style="text-indent:2em;">最后页面中的显示：</p>
 <img src="https://yeyusky.github.io/post-images/qcom3.png" alt="" />	
+<h1>vue之局部组件</h1>
+<p style="text-indent:2em;">局部组件注册第一种方式：</p>
+<img src="https://yeyusky.github.io/post-images/jbvue1.png" alt="" />
+<p style="text-indent:2em;">局部组件注册第二种方式：</p>
+<img src="https://yeyusky.github.io/post-images/jbvue2.png" alt="" />	
+<img src="https://yeyusky.github.io/post-images/jbvue3.png" alt="" />
+<p style="text-indent:2em;">HTML中的代码：</p>
+<img src="https://yeyusky.github.io/post-images/jbvue4.png" alt="" />	
+<p style="text-indent:2em;">最后页面中的显示：</p>
+<img src="https://yeyusky.github.io/post-images/jbvue5.png" alt="" />	
 ]]></content>
     </entry>
     <entry>
