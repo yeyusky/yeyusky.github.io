@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Vue学习总结--vue实例 | 夜雨、听风</title>
-<link rel="shortcut icon" href="https://yeyusky.github.io/favicon.ico?v=1562304229394">
+<link rel="shortcut icon" href="https://yeyusky.github.io/favicon.ico?v=1562560893153">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://yeyusky.github.io/styles/main.css">
@@ -20,7 +20,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://yeyusky.github.io">
-  <img class="avatar" src="https://yeyusky.github.io/images/avatar.png?v=1562304229394" alt="">
+  <img class="avatar" src="https://yeyusky.github.io/images/avatar.png?v=1562560893153" alt="">
   </a>
   <h1 class="site-title">
     夜雨、听风
@@ -98,6 +98,16 @@
 <img src="https://yeyusky.github.io/post-images/vuedata.png" alt="" />
 <p style="text-indent:2em;">页面中是这个样的，如下图：</p>
 <img src="https://yeyusky.github.io/post-images/vuedatah.png" alt="" />
+<p style="text-indent:2em;">第三个选项是props，用于接收来自父组件的数据。因为组件实例的作用域是孤立的。这意味着不能在子组件的模板内直接引用父组件的数据。要让子组件使用父组件的数据，我们需要通过子组件的 props 选项。如下图所示：</p>
+<img src="https://yeyusky.github.io/post-images/vueprops.png" alt="" />
+<p style="text-indent:2em;">第四个选项是Computed（计算属性），1、我们可以像绑定普通属性一样在模板中绑定计算属性。2、计算属性是基于它们的依赖进行缓存的。也就是说，计算属性只有在它的相关依赖发生改变时才会重新求值。如果data中的属性值未发生变化，执行总会返回之前执行的结果。3、每当触发重新渲染时，调用方法将总会再次执行函数。</p>
+<p style="text-indent:2em;">第五个选项是 methods（里面是一些function），我们可以直接通过 实例访问这些方法，或者在指令表达式中使用。如图：</p>vuemethods
+<img src="https://yeyusky.github.io/post-images/vuemethods.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/vuemethodsh.png" alt="" />
+<p style="text-indent:2em;">第六个选项是watch（侦听属性），我们可以通过 watch 来响应数据的变化，如下图：</p>
+<img src="https://yeyusky.github.io/post-images/vuewatch.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/vuewatch1.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/vuewatch2.png" alt="" />
             </div>
           </article>
         </div>
