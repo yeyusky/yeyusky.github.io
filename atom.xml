@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yeyusky.github.io</id>
     <title>夜雨、听风</title>
-    <updated>2019-07-08T04:43:32.200Z</updated>
+    <updated>2019-07-11T03:11:11.277Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yeyusky.github.io"/>
     <link rel="self" href="https://yeyusky.github.io/atom.xml"/>
@@ -16,27 +16,36 @@
         <link href="https://yeyusky.github.io/post/vue-xue-xi-zong-jie-vue-shi-li">
         </link>
         <updated>2019-07-05T04:16:12.000Z</updated>
-        <content type="html"><![CDATA[<h1>vue的实例与数据</h1>
+        <content type="html"><![CDATA[<h1>一、vue的实例与数据</h1>
 <p style="text-indent:2em;">让我们看一个最简单的实例，如下图：</p>
 <img src="https://yeyusky.github.io/post-images/vuesl.png" alt="" />
 <p style="text-indent:2em; font-size:12px;">如上图所示的实例，变量vm就代表了这个vue实例，我们这样就建好了一个vue实例，我们可以在实例里面添加内容（选项），从而让我们所想的渲染到页面上</p>
-<p style="text-indent:2em;">首先，必不可少的的一个选项就是el（挂载点），el用于指点一个页面中的DOM元素来挂载这个实例，如下图所示：</p>
+<h3>1、el</h3>
+<p style="text-indent:2em;">必不可少的的一个选项就是el（挂载点），el用于指点一个页面中的DOM元素来挂载这个实例，如下图所示：</p>
 <img src="https://yeyusky.github.io/post-images/vueel.png" alt="" />
 <p style="text-indent:2em; font-size:12px;">这样我们就把一个实例挂载到了页面中存在的dom元素上</p>
+<h3>2、data</h3>
 <p style="text-indent:2em;">下面让我们来看另一个选项，data选项，data选项里面的属性（也就是数据），实例本身也代理data里面的属性，SO，我们可以把这些数据渲染到页面中，如下图：</p>
 <img src="https://yeyusky.github.io/post-images/vuedata.png" alt="" />
 <p style="text-indent:2em;">页面中是这个样的，如下图：</p>
 <img src="https://yeyusky.github.io/post-images/vuedatah.png" alt="" />
+<h3>3、props</h3>
 <p style="text-indent:2em;">第三个选项是props，用于接收来自父组件的数据。因为组件实例的作用域是孤立的。这意味着不能在子组件的模板内直接引用父组件的数据。要让子组件使用父组件的数据，我们需要通过子组件的 props 选项。如下图所示：</p>
 <img src="https://yeyusky.github.io/post-images/vueprops.png" alt="" />
-<p style="text-indent:2em;">第四个选项是Computed（计算属性），1、我们可以像绑定普通属性一样在模板中绑定计算属性。2、计算属性是基于它们的依赖进行缓存的。也就是说，计算属性只有在它的相关依赖发生改变时才会重新求值。如果data中的属性值未发生变化，执行总会返回之前执行的结果。3、每当触发重新渲染时，调用方法将总会再次执行函数。</p>
+<h3>4、Computed</h3>
+<p style="text-indent:2em;">第四个选项是Computed（计算属性）<br>********1、我们可以像绑定普通属性一样在模板中绑定计算属性。<br>********2、计算属性是基于它们的依赖进行缓存的。也就是说，计算属性只有在它的相关依赖发生改变时才会重新求值。如果data中的属性值未发生变化，执行总会返回之前执行的结果。<br>********3、每当触发重新渲染时，调用方法将总会再次执行函数。</p>
+<h3>5、methods</h3>
 <p style="text-indent:2em;">第五个选项是 methods（里面是一些function），我们可以直接通过 实例访问这些方法，或者在指令表达式中使用。如图：</p>
 <img src="https://yeyusky.github.io/post-images/vuemethods.png" alt="" />
 <img src="https://yeyusky.github.io/post-images/vuemethodsh.png" alt="" />
+<h3>6、watch</h3>
 <p style="text-indent:2em;">第六个选项是watch（侦听属性），我们可以通过 watch 来响应数据的变化，如下图：</p>
 <img src="https://yeyusky.github.io/post-images/vuewatch.png" alt="" />
 <img src="https://yeyusky.github.io/post-images/vuewatch1.png" alt="" />
-<img src="https://yeyusky.github.io/post-images/vuewatch2.png" alt="" />]]></content>
+<img src="https://yeyusky.github.io/post-images/vuewatch2.png" alt="" />
+<h1>二、生命周期钩子</h1>
+<p style="text-indent:2em;">首先让我们来看一下官网的生命周期图：</p>
+<img src="https://yeyusky.github.io/post-images/vuesm.png" alt="" />]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vue学习总结--component组件]]></title>
