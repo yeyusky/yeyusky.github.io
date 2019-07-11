@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yeyusky.github.io</id>
     <title>夜雨、听风</title>
-    <updated>2019-07-11T03:11:11.277Z</updated>
+    <updated>2019-07-11T04:35:41.693Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yeyusky.github.io"/>
     <link rel="self" href="https://yeyusky.github.io/atom.xml"/>
@@ -45,7 +45,50 @@
 <img src="https://yeyusky.github.io/post-images/vuewatch2.png" alt="" />
 <h1>二、生命周期钩子</h1>
 <p style="text-indent:2em;">首先让我们来看一下官网的生命周期图：</p>
-<img src="https://yeyusky.github.io/post-images/vuesm.png" alt="" />]]></content>
+<img src="https://yeyusky.github.io/post-images/vuesm.png" alt="" />
+<p style="text-indent:2em;">让我们创建一个vue实例，来观察一下不同的生命周期阶段，钩子函数执行的状态</p>
+<h3>1、beforeCreate</h3>
+<p style="text-indent:2em;">创建前状态：</p>
+<img src="https://yeyusky.github.io/post-images/beforecreate.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/beforecreateh.png" alt="" />
+<p style="text-indent:2em; font-size:12px;">如上图所示，未创建之前，el、data这些都是undefined。 </p>
+<h3>2、Created</h3>
+<p style="text-indent:2em;">创建完成状态：</p>
+<img src="https://yeyusky.github.io/post-images/created.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/createdh.png" alt="" />
+<p style="text-indent:2em; font-size:12px;">如上图所示，创建完成后，属性已经绑定，但是DOM未生成，所以el仍是undefined 。</p>
+<h3>3、beforeMount</h3>
+<p style="text-indent:2em;">挂载前状态：</p>
+<img src="https://yeyusky.github.io/post-images/beforemount.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/beforemounth.png" alt="" />
+<p style="text-indent:2em; font-size:12px;">如上图所示，挂载前的状态，el与data都已经完成了初始化。</p>
+<h3>4、Mounted</h3>
+<p style="text-indent:2em;">挂载结束状态：</p>
+<img src="https://yeyusky.github.io/post-images/mounted.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/mountedh.png" alt="" />
+<p style="text-indent:2em; font-size:12px;">如上图所示，挂载结束的状态，完成了挂载，app里面的{{message}}已经变成的数据。</p>
+<h3>5、beforeUpdate和Updated</h3>
+<p style="text-indent:2em;">更新前和更新后状态：</p>
+<img src="https://yeyusky.github.io/post-images/beup.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/beuph.png" alt="" />
+<p style="text-indent:2em; font-size:12px;">如上图所示，只有更新了数据，并且该数据已经被写在了模板中，能渲染到页面上，才会调用这两个钩子。</p>
+<h3>6、beforeUpdate和Updated</h3>
+<p style="text-indent:2em;">更新前和更新后状态：</p>
+<img src="https://yeyusky.github.io/post-images/beup.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/beuph.png" alt="" />
+<p style="text-indent:2em; font-size:12px;">如上图所示，只有更新了数据，并且该数据已经被写在了模板中，能渲染到页面上，才会调用这两个钩子。</p>
+<h3>7、beforeDestroy和destroyed</h3>
+<p style="text-indent:2em;">销毁前和销毁完成状态：</p>
+<img src="https://yeyusky.github.io/post-images/destoy.png" alt="" />
+<img src="https://yeyusky.github.io/post-images/destoyh.png" alt="" />
+<p style="text-indent:2em; font-size:12px;">如上图所示，根据官网的说法是beforeDestroy是在实例销毁之前调用。在这一步，实例仍然完全可用。destroyed是在Vue 实例销毁后调用。调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。大概就是这个样子，还需要仔细研究一下才能吃透。</p>
+<h3>8、写在最后</h3>
+<p style="text-indent:2em; ">具体的钩子应用我相信大家都有一丢丢疑问吧，当然我也有，所以我们要不断的探索和发现。</p>
+<p>****1、beforecreate : 可以在这加个loading事件 。
+<br>****2、created ：在这结束loading，还做一些初始化，实现函数自执行 .
+<br>****3、mounted ： 在这发起后端请求，拿回数据，配合路由钩子做一些事情.
+<br>****4、beforeDestroy： 你确认删除XX吗？
+	<br>****5、destroyed ：当前组件已被删除，清空相关内容。</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vue学习总结--component组件]]></title>
